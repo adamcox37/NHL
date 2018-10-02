@@ -26,8 +26,16 @@
 .container {
 	display: grid;
 	justify-content: space-around;
+	flex-grow: 1;
 }
 
 .youPick {
-	display: inline;
+	display: flex;
+	align-items: baseline;
+	padding-top: 50px;
+}
+
+.or {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
