@@ -1,21 +1,33 @@
 /*****************************
 			GENERAL
 *****************************/
-body {
-	background-color: #e6f2ff;
+ * {
+    box-sizing: border-box;
 }
 
-button {
-	font-family: 'Bowlby One SC', cursive;
-	font-size: 32px;
-	padding: 24px 16px;
-	border: 5px;
-	border-color: black;
-	background-color: #e6f2ff;
-}
+ body {
+ 	font-family: 'Press Start 2P', cursive;
+ 	background-color: #e6f2ff; 	text-align: center;
+ }
+
+ button, .button, a {
+ 	font-family: 'Press Start 2P', cursive;
+ 	font-size: 24px;
+ 	color: black;
+ 	padding: 12px;
+ 	border: 5px solid black;
+ 	background-color: #e6f2ff;
+ 	display: block;
+ 	margin: 20px;
+ 	text-decoration: none;
+ 	cursor: pointer;
+ }
 
 .container {
 	display: grid;
 	justify-content: space-around;
-	align-content: center;
+}
+
+.youPick {
+	display: inline;
 }
