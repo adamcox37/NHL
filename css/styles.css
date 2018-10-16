@@ -7,10 +7,11 @@
 
  body {
  	font-family: 'Press Start 2P', cursive;
- 	background-color: #e6f2ff; 	text-align: center;
+ 	background-color: #e6f2ff; 	
+ 	text-align: center;
  }
 
- button, .button, a {
+ .button, a {
  	font-family: 'Press Start 2P', cursive;
  	font-size: 24px;
  	color: black;
@@ -40,8 +41,3 @@
 	padding-bottom: 80px;
 }
 
-#eastPick, 
-#westPick, 
-#randyPick {
-	color: red;
-}
