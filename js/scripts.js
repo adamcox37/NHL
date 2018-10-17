@@ -27,6 +27,11 @@ function getEast() {
 
 }
 
+// disable button after click
+function myEast() {
+    document.getElementById("east").disabled = true;
+}
+
 // WESTERN CONFERENCE
 document.getElementById("west").addEventListener("click", getWest);
 
@@ -54,15 +59,29 @@ function getWest() {
 	document.getElementById("west").innerHTML = rand;
 }
 
+// disable button after click
+function myWest() {
+    document.getElementById("west").disabled = true;
+}
 
 // STANLEY CUP
 document.getElementById("champ").addEventListener("click", getChamp);
 
-function getChamp(){}
+function getChamp(){
+	var z = [
 
+	];
 
+	var rand = z[Math.floor(Math.random() * z.length)];
 
+	document.getElementById("champ").innerHTML = rand;
 
+}
+
+// disable button after click
+function myChamp() {
+    document.getElementById("champ").disabled = true;
+}
 
 
 

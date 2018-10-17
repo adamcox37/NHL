@@ -11,7 +11,7 @@
  	text-align: center;
  }
 
- .button, a {
+ button, a {
  	font-family: 'Press Start 2P', cursive;
  	font-size: 24px;
  	color: black;
