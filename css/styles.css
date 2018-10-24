@@ -9,7 +9,7 @@
  	font-family: 'Press Start 2P', cursive;
  	background-color: #e6f2ff; 	
  	text-align: center;
- }
+}
 
  button, a {
  	font-family: 'Press Start 2P', cursive;
@@ -22,12 +22,19 @@
  	margin: 20px;
  	text-decoration: none;
  	cursor: pointer;
- }
+}
 
 .container {
 	display: grid;
 	justify-content: space-around;
 	flex-grow: 1;
+	padding: 10%;
+}
+
+#luck {
+	display: none;
+	font-size: 50px;
+	padding-bottom: 100px;
 }
 
 .youPick {
@@ -36,7 +43,7 @@
 	padding-top: 50px;
 }
 
-.or {
+.divide {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }

@@ -64,18 +64,15 @@ function myWest() {
     document.getElementById("west").disabled = true;
 }
 
+// make the championship button available
+
+
 // STANLEY CUP
 document.getElementById("champ").addEventListener("click", getChamp);
 
+// select champ from the two conference winners
 function getChamp(){
-	var z = [
-
-	];
-
-	var rand = z[Math.floor(Math.random() * z.length)];
-
-	document.getElementById("champ").innerHTML = rand;
-
+	
 }
 
 // disable button after click
@@ -83,7 +80,10 @@ function myChamp() {
     document.getElementById("champ").disabled = true;
 }
 
-
+// show "Good Luck"
+function luck() {
+	document.getElementById('luck').style.display = "block";
+}
 
 
 
