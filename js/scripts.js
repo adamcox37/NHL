@@ -25,6 +25,8 @@ function getEast() {
 
 	document.getElementById("east").innerHTML = rand;
 
+	return rand;
+
 }
 
 // disable button after click
@@ -57,6 +59,8 @@ function getWest() {
 	var rand = y[Math.floor(Math.random() * y.length)];
 
 	document.getElementById("west").innerHTML = rand;
+
+	return rand;
 }
 
 // disable button after click
@@ -72,7 +76,14 @@ document.getElementById("champ").addEventListener("click", getChamp);
 
 // select champ from the two conference winners
 function getChamp(){
-	
+	var z = [
+		getEast,
+		getWest
+	];
+
+	var rand = z[Math.floor(Math.random() * z.length)]();
+
+	document.getElementById("champ").innerHTML = rand;
 }
 
 // disable button after click
